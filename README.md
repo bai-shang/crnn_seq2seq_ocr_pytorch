@@ -26,7 +26,7 @@ This software only tested in Python3.5!
 Asume your current work directory is "crnn_seq2seq_ocr.Pytorch"：  
 
 ```bash
-cd crnn_seq2seq_ocr.Pytorch
+#cd crnn_seq2seq_ocr.Pytorch
 python3 inference.py --img_path ./data/test_img/20439171_260546633.jpg \
     --encoder model/pretrained/encoder.pth --decoder model/pretrained/decoder.pth
 ```
