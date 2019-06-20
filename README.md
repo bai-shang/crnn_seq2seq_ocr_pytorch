@@ -63,7 +63,7 @@ Then the training messages are printed to terminal like
 
 * [PyTorch Tutorials >  Translation with a Sequence to Sequence Network and Attention](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
 
-* The crnn+ctc ocr can be found here [bai-shang/crnn_ctc_ocr.Tensorflow](https://github.com/bai-shang/crnn_ctc_ocr.Tensorflow/blob/master/README.md).
+* The crnn+ctc ocr can be found here [bai-shang/crnn_ctc_ocr.Tensorflow](https://github.com/bai-shang/crnn_ctc_ocr.Tensorflow).
 
 
 
