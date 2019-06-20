@@ -43,13 +43,13 @@ predict_string: 于采取的是“激变”的 => predict_probility: 0.860094428
 
 * Download [Synthetic Chinese String Dataset](https://pan.baidu.com/s/1dFda6R3#list/path=%2F).  
 
-* Create **train_list.txt** and **test_list.txt** as follow
+* Create **train_list.txt** and **test_list.txt** as follow format
 ```
 path/to/your/image/50843500_2726670787.jpg 情笼罩在他们满是沧桑
 path/to/your/image/57724421_3902051606.jpg 心态的松弛决定了比赛
 path/to/your/image/52041437_3766953320.jpg 虾的鲜美自是不可待言
 ```
-Otherwise you can use the "data/convert_text_list.py" script to help you create the two lists.
+You can use the "data/convert_text_list.py" script to create the two lists or finish it by yourself.
 ```
 cd data
 python3 convert_text_list.py SyntheticChineseStringDataset/train.txt > train_list.txt
