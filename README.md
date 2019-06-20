@@ -49,6 +49,9 @@ path/to/your/image/50843500_2726670787.jpg 情笼罩在他们满是沧桑
 path/to/your/image/57724421_3902051606.jpg 心态的松弛决定了比赛
 path/to/your/image/52041437_3766953320.jpg 虾的鲜美自是不可待言
 ```
+Then the messages are print to terminal as follow
+![](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/start_train.jpg?raw=true)
+
 * Start training
 ```
 python3 --train_list train_list.txt --eval_list test_list.txt --model ./model/crnn/ 
