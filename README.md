@@ -4,7 +4,7 @@ This software implements the Convolutional Recurrent Neural Network (CRNN), a co
 
 ![arch.jpg](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/arch.jpg?raw=true)
 
-* The network base architecture is implemented form:  [Robust Scene Text Recognition with Automatic Rectification](https://arxiv.org/abs/1603.03915)
+* The network base architecture is implemented from [Robust Scene Text Recognition with Automatic Rectification](https://arxiv.org/abs/1603.03915)
 
 # Dependencies
 All dependencies should be installed are as follow: 
