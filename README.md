@@ -15,15 +15,14 @@ Required packages can be installed with
 pip3 install -r requirements.txt
 ```
 
-This software only tested in Python3.5!   
-
-Please do not ask any question about how to fix it in different Python version.
+This software only tested in Python3.5!
 
 # Run demo
 
 Asume your current work directory is "crnn_seq2seq_ocr.Pytorch"：  
 
 ```bash
+cd crnn_seq2seq_ocr.Pytorch
 python3 inference.py --img_path ./data/test_img/20439171_260546633.jpg \
     --encoder model/pretrained/encoder.pth --decoder model/pretrained/decoder.pth
 ```
