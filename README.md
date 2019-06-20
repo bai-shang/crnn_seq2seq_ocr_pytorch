@@ -1,6 +1,6 @@
 # crnn_seq2seq_ocr.Pytorch
 
-This software implements the Convolutional Recurrent Neural Network (CRNN), a combination of CNN, Sequence to sequence and Attention for image-based sequence recognition tasks, such as scene text recognition and OCR.
+This software implements the Convolutional Recurrent Neural Network (CRNN), a combination of CNN and Sequence to sequence model with attention for image-based sequence recognition tasks, such as scene text recognition and OCR.
 
 # Dependencies
 All dependencies should be installed are as follow: 
