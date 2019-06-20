@@ -38,10 +38,3 @@ predict_string: 于采取的是“激变”的 => predict_probility: 0.860094428
 # Train a new model
 
 
-# Network architecture
-
-![encoder_and_decoder](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/arch.jpg?raw=true)
-
-![attention](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/attn.jpg?raw=true)
-
-
