@@ -13,7 +13,11 @@ All dependencies should be installed are as follow:
 Required packages can be installed with
 ```bash
 pip3 install -r requirements.txt
-```    
+```
+
+This software only tested in Python3.5!   
+
+Please do not ask any question about how to fix it in different Python version.
 
 # Run demo
 
@@ -24,8 +28,13 @@ python3 inference.py --img_path ./data/test_img/20439171_260546633.jpg \
     --encoder model/pretrained/encoder.pth --decoder model/pretrained/decoder.pth
 ```
 
-Result is:
+Result is:  
+
 ![20439171_260546633.jpg](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/test_img/20439171_260546633.jpg?raw=true)
+
+predict_string: 于采取的是“激变”的 => predict_probility: 0.860094428062439  
+
+
 
 # Train a new model
 
