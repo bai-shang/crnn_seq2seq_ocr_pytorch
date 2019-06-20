@@ -54,9 +54,9 @@ python3 --train_list train_list.txt --eval_list test_list.txt --model ./model/cr
 ``` 
 
 # Reference
-[1] [caffe_ocr](https://github.com/senlinuc/caffe_ocr) .  
+* [caffe_ocr](https://github.com/senlinuc/caffe_ocr)
 
-[2] [PyTorch Tutorials >  Translation with a Sequence to Sequence Network and Attention](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) .  
+* [PyTorch Tutorials >  Translation with a Sequence to Sequence Network and Attention](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
 
 
 
