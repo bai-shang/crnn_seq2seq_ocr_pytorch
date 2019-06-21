@@ -6,6 +6,9 @@ This software implements the Convolutional Recurrent Neural Network (CRNN), a co
 
 * The network base architecture is implemented from [Robust Scene Text Recognition with Automatic Rectification](https://arxiv.org/abs/1603.03915)
 
+***The crnn+ctc ocr can be found here [bai-shang/crnn_ctc_ocr.Tensorflow](https://github.com/bai-shang/crnn_ctc_ocr.Tensorflow)***
+
+
 # Dependencies
 All dependencies should be installed are as follow:
 * Python3.5
@@ -69,9 +72,6 @@ Then the training messages are printed to terminal like
 * [caffe_ocr](https://github.com/senlinuc/caffe_ocr)
 
 * [PyTorch Tutorials >  Translation with a Sequence to Sequence Network and Attention](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-
-* The crnn+ctc ocr can be found here [bai-shang/crnn_ctc_ocr.Tensorflow](https://github.com/bai-shang/crnn_ctc_ocr.Tensorflow).
-
 
 
 
