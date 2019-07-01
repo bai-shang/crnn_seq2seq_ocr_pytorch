@@ -104,10 +104,10 @@ class Encoder(nn.Module):
 
 class Decoder(nn.Module):
 
-    def __init__(self, hidden_size, output_size, dropout_p=0.1):
+    def __init__(self, hidden_size, output_size, dropout_p=0.1, max_length=71):
         super(Decoder, self).__init__()
         self.hidden_size = hidden_size
-        self.decoder = AttnDecoderRNN(hidden_size, output_size, dropout_p)
+        self.decoder = AttnDecoderRNN(hidden_size, output_size, dropout_p, max_length)
 
     def forward(self, input, hidden, encoder_outputs):
         return self.decoder(input, hidden, encoder_outputs)
