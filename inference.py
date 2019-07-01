@@ -65,7 +65,8 @@ def main():
     image = torch.autograd.Variable(image) 
 
     encoder = crnn.Encoder(3, cfg.hidden_size)
-    decoder = crnn.Decoder(cfg.hidden_size, num_classes, dropout_p=0.0) # no dropout during inference network
+    # no dropout during inference
+    decoder = crnn.Decoder(cfg.hidden_size, num_classes, dropout_p=0.0, max_length=cfg.max_width)
 
     if torch.cuda.is_available() and cfg.use_gpu:
         encoder = encoder.cuda()
