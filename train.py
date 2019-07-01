@@ -179,7 +179,8 @@ def main():
 
     # create crnn/seq2seq/attention network
     encoder = crnn.Encoder(channel_size=3, hidden_size=cfg.hidden_size)
-    decoder = crnn.Decoder(hidden_size=cfg.hidden_size, output_size=num_classes, dropout_p=0.1)        # For prediction of an indefinite long sequence
+    # for prediction of an indefinite long sequence
+    decoder = crnn.Decoder(hidden_size=cfg.hidden_size, output_size=num_classes, dropout_p=0.1, max_lrngth=cfg.max_width)
     print(encoder)
     print(decoder)
     encoder.apply(utils.weights_init)
