@@ -6,7 +6,7 @@ with open('char_std_5990.txt') as fd:
 
 cvt_dict = {}
 for i, line in enumerate(cvt_lines):
-    key = i
+    key = i + 1
     value = line.strip()
     cvt_dict[key] = value
 
