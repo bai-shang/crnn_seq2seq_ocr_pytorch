@@ -5,7 +5,7 @@ This software implements the Convolutional Recurrent Neural Network (CRNN), a co
 
 This network architecture is implemented from [Robust Scene Text Recognition with Automatic Rectification](https://arxiv.org/abs/1603.03915)
 
-![arch.jpg](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/arch.jpg?raw=true)  
+![arch.jpg](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/arch.jpg?)  
 
 
 ***The crnn+ctc ocr can be found here [bai-shang/crnn_ctc_ocr.Tensorflow](https://github.com/bai-shang/crnn_ctc_ocr.Tensorflow)***
@@ -67,7 +67,7 @@ python3 convert_text_list.py SyntheticChineseStringDataset/test.txt > test_list.
 python3 --train_list train_list.txt --eval_list test_list.txt --model ./model/crnn/ 
 ``` 
 Then the training messages are printed to terminal like
-![](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/start_train.jpg?raw=true)
+![](https://github.com/bai-shang/crnn_seq2seq_ocr.Pytorch/blob/master/data/start_train.jpg?)
 
 
 # Reference
