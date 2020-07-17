@@ -46,7 +46,7 @@ predict_string: 于采取的是“激变”的 => predict_probility: 0.860094428
 
 # Train a new model
 
-* Download [Synthetic Chinese String Dataset](https://pan.baidu.com/s/1bHRP2eAcU8a7ff0n-VTX_A) with share code 2anx.  
+* Download [Synthetic Chinese String Dataset](https://pan.baidu.com/s/1bHRP2eAcU8a7ff0n-VTX_A) with share code ***2anx***.  
 
 * Create **train_list.txt** and **test_list.txt** as follow format
 ```
