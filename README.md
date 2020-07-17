@@ -63,7 +63,7 @@ python3 convert_text_list.py SyntheticChineseStringDataset/test.txt > test_list.
 
 * Start training
 ```
-#cd crnn_seq2seq_ocr.Pytorch
+#cd crnn_seq2seq_ocr_pytorch
 python3 --train_list train_list.txt --eval_list test_list.txt --model ./model/crnn/ 
 ``` 
 Then the training messages are printed to terminal like
